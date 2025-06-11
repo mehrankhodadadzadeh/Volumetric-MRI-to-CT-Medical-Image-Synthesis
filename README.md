@@ -11,7 +11,7 @@ This project provides a deep learning framework for volumetric (3D) paired MRI-t
 
 #What This Framework Does
 
-- Translates MRI brain volumes to synthetic CT.
+- Translates MRI brain volumes to synthetic CT using three different architectures including the UNet, Attention UNet and SwinUNetR.
 - Utilizes patch-wise GAN training for memory-efficient learning.
 - Evaluates voxel-level fidelity using MAE, PSNR, and SSIM inside anatomical masks.
 - Supports both training and k-fold cross-validation modes.
