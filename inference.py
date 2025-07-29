@@ -4,7 +4,6 @@ from tqdm import tqdm
 from models import build_generator
 from utils import mae_psnr_ssim
 
-# ───────── USER CONFIG ──────────────────────────────────────────── #
 MODEL_PATH  = "/scratch/brussel/112/vsc11217/image_generation/MR_CT/Best_model/generator_epoch_2500.pth"
 TEST_DIR    = "/data/brussel/112/vsc11217/3D_UNet_Data/full_data_150_15_15_brain/Brain_data/test"
 OUTPUT_DIR  = "/scratch/brussel/112/vsc11217/image_generation/MR_CT/Best_model"
