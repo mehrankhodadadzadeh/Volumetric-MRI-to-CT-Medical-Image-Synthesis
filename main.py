@@ -16,7 +16,7 @@ from trainer import GANTrainer
 # ────────────────────────── Weights & Biases ─────────────────────────
 PROJECT_NAME  = "test"
 ENTITY        = "mehrankhodadadzadeh90"
-WANDB_API_KEY = "327d6744322581328c21f381eb005cbf0c5521f1"
+WANDB_API_KEY = "the key"
 wandb.login(key=WANDB_API_KEY)
 
 
